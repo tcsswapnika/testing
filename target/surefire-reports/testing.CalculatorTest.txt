@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: testing.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+testing.CalculatorTest.testGreaterThanTwoCondition()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testGreaterThanTwoCondition(CalculatorTest.java:70)
+
+testing.CalculatorTest.testAddBothNegative()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testAddBothNegative(CalculatorTest.java:41)
+
+testing.CalculatorTest.testDivideSmallerNumerator()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testDivideSmallerNumerator(CalculatorTest.java:64)
+
+testing.CalculatorTest.testDivideDenominatorIsZero()  Time elapsed: 0.016 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <java.lang.ArithmeticException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at testing.CalculatorTest.testDivideDenominatorIsZero(CalculatorTest.java:57)
+
+testing.CalculatorTest.testAdd()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testAdd(CalculatorTest.java:22)
+
+testing.CalculatorTest.testAddFloat()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testAddFloat(CalculatorTest.java:28)
+
+testing.CalculatorTest.testAddNegative()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testAddNegative(CalculatorTest.java:35)
+
+testing.CalculatorTest.testDivide()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testing.CalculatorTest.testDivide(CalculatorTest.java:47)
+
